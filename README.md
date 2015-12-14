@@ -1,6 +1,6 @@
 # Toolbash
 
-This is a common configuration bash files. 
+This is a common configuration bash files.
 
 ## Aim
 
@@ -9,8 +9,8 @@ Provide a simple configuration setup terminal.
 ## Installation
 
 ```
-$ git clone git@github.com:nubleer/toolbash.git toolbash
-Cloning into 'toolbash'...
+$ git clone git@github.com:nubleer/toolbash.git ~/Config
+Cloning into '~/Config'...
 remote: Counting objects: 21, done.
 remote: Compressing objects: 100% (18/18), done.
 remote: Total 21 (delta 0), reused 21 (delta 0), pack-reused 0
@@ -20,7 +20,7 @@ Checking connectivity... done.
 Then
 
 ```
-$ cd toolbash
+$ cd ~/Config
 $ chmod +x install.sh
 $ ./install.sh
 ```
