@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# common alias
+alias ls="ls -F --color"
+alias ll='ls -lhG'  # -l long listing, human readable, no group info
+alias la="ls -alh --color"
+alias lt="la -t"
+alias lr="lt -r"
+
+# custom alias
+alias ..='cd ..'
+alias ...='cd ../..'
+alias t='tail -fn'
+alias h='history'
+alias cdw='cd /var/www/public/'
+alias cdg='cd ~/go/'
+
