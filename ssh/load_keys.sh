@@ -22,5 +22,6 @@ fi
 # -----------------------------------------------------------
 FILE_KEYS="$HOME/.ssh/key.map"
 while read line; do
+  [[ "$line" =~ ^#.*$ ]] && continue
   /usr/bin/ssh-add $line
 done < $FILE_KEYS
