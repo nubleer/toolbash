@@ -9,7 +9,7 @@ Provide a simple configuration setup terminal.
 ## Installation
 
 ```
-$ git clone git@github.com:nubleer/toolbash.git ~/Config
+$ git clone https://github.com/nubleer/toolbash.git ~/Config
 Cloning into '~/Config'...
 remote: Counting objects: 21, done.
 remote: Compressing objects: 100% (18/18), done.
